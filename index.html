@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissor</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1 class="text-center">🪨 🗞️ ✂️</h1>
+      <div class="container">
+        <div class="row text-center">
+          <h2>5 out of 5 Chance left</h2>
+          <br />
+
+          <div class="col">
+            <h3>USER (<span id="user1-score">0</span>)</h3>
+            <hr />
+            <p id="user"></p>
+            <form class="d-flex justify-content-center">
+              <input type="submit" value="Rock" />
+              <input type="submit" value="Paper" />
+              <input type="submit" value="Scissor" />
+            </form>
+          </div>
+
+          <div class="col">
+            <h3>SYSTEM (<span id="user2-score">0</span>)</h3>
+            <hr />
+            <p id="user2"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

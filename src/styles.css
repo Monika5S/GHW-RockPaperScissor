@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background: black;
+}
+
+h1 {
+  margin: 2% 10%;
+  color: slateblue;
+  border: 2px solid slategrey;
+  border-radius: 45px;
+}
+
+h3 {
+  color: rgb(151, 179, 255);
+}
+
+p {
+  font-size: 18px;
+  color: hotpink;
+}
+
+input {
+  background: slateblue;
+}
+
+input:hover {
+  background: blanchedalmond;
+}
+
+.container {
+  margin: 5% auto;
+  padding: 5%;
+  border: 2px dotted slateblue;
+  max-width: 75%;
+}
+
+.col {
+  border: 1px dotted rgb(151, 179, 255);
+  margin: 2%;
+  padding: 2%;
+}
+
+.row {
+  color: snow;
+}
